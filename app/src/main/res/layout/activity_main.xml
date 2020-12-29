@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <com.example.lectuers.text_font1
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/red1"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:id="@+id/layout_name"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/layout_name"
+        android:id="@+id/rec"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+>
+
+        <com.example.lectuers.text_font1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/text_null"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:gravity="center"
+
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

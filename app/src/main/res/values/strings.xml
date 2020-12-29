@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">محاضراتي</string>
+    <string name="level_name">اختر فرقتك</string>
+    <string name="luctuers_name">المحاضرات </string>
+    <string name="band1_name"> الفرقة الاولى</string>
+    <string name="band2_name"> الفرقة الثانية</string>
+    <string name="band3_name"> الفرقة الثالثة</string>
+    <string name="band4_name"> الفرقة الرابعة</string>
+    <string name="band5_name"> الفرقة الخامسة</string>
+    <string name="band6_name"> الفرقة السادسة</string>
+</resources>
